@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 20 12:56:23 2022
+# Process ID: 22372
+# Current directory: C:/Users/akolo/Vivado gang/course_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12476 C:\Users\akolo\Vivado gang\course_project\course_project.xpr
+# Log file: C:/Users/akolo/Vivado gang/course_project/vivado.log
+# Journal file: C:/Users/akolo/Vivado gang/course_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/akolo/Vivado gang/course_project/course_project.xpr}
+update_compile_order -fileset sources_1

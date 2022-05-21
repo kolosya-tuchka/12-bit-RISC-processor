@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="proc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="proc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="174635766fs"></ZoomStartTime>
+      <ZoomEndTime time="175558767fs"></ZoomEndTime>
+      <Cursor1Time time="175477766fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="155"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="136" />
+   <wvobject fp_name="/proc_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/write_r" type="logic">
+      <obj_property name="ElementShortName">write_r</obj_property>
+      <obj_property name="ObjectShortName">write_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/read_r" type="logic">
+      <obj_property name="ElementShortName">read_r</obj_property>
+      <obj_property name="ObjectShortName">read_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC_en" type="logic">
+      <obj_property name="ElementShortName">PC_en</obj_property>
+      <obj_property name="ObjectShortName">PC_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ac_ena" type="logic">
+      <obj_property name="ElementShortName">ac_ena</obj_property>
+      <obj_property name="ObjectShortName">ac_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ram_ena" type="logic">
+      <obj_property name="ElementShortName">ram_ena</obj_property>
+      <obj_property name="ObjectShortName">ram_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/rom_ena" type="logic">
+      <obj_property name="ElementShortName">rom_ena</obj_property>
+      <obj_property name="ObjectShortName">rom_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ram_write" type="logic">
+      <obj_property name="ElementShortName">ram_write</obj_property>
+      <obj_property name="ObjectShortName">ram_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ram_read" type="logic">
+      <obj_property name="ElementShortName">ram_read</obj_property>
+      <obj_property name="ObjectShortName">ram_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/rom_read" type="logic">
+      <obj_property name="ElementShortName">rom_read</obj_property>
+      <obj_property name="ObjectShortName">rom_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ad_sel" type="logic">
+      <obj_property name="ElementShortName">ad_sel</obj_property>
+      <obj_property name="ObjectShortName">ad_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/data" type="array">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/addr" type="array">
+      <obj_property name="ElementShortName">addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/accum_out" type="array">
+      <obj_property name="ElementShortName">accum_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ir_ad" type="array">
+      <obj_property name="ElementShortName">ir_ad[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_ad[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/pc_ad" type="array">
+      <obj_property name="ElementShortName">pc_ad[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_ad[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/reg_ad" type="array">
+      <obj_property name="ElementShortName">reg_ad[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_ad[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ins" type="array">
+      <obj_property name="ElementShortName">ins[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/addr" type="array">
+      <obj_property name="ElementShortName">addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/data" type="array">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ROM1/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ROM1/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ROM1/addr" type="array">
+      <obj_property name="ElementShortName">addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ROM1/data" type="array">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/MUX1/ir_ad" type="array">
+      <obj_property name="ElementShortName">ir_ad[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_ad[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/MUX1/pc_ad" type="array">
+      <obj_property name="ElementShortName">pc_ad[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_ad[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/MUX1/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/MUX1/addr" type="array">
+      <obj_property name="ElementShortName">addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/pc_addr" type="array">
+      <obj_property name="ElementShortName">pc_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ACCUM1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ACCUM1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ACCUM1/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ACCUM1/in" type="array">
+      <obj_property name="ElementShortName">in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">in[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ACCUM1/out" type="array">
+      <obj_property name="ElementShortName">out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ALU1/op" type="array">
+      <obj_property name="ElementShortName">op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ALU1/alu_in" type="array">
+      <obj_property name="ElementShortName">alu_in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_in[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ALU1/accum" type="array">
+      <obj_property name="ElementShortName">accum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">accum[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/ALU1/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/in" type="array">
+      <obj_property name="ElementShortName">in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">in[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/addr" type="array">
+      <obj_property name="ElementShortName">addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/data" type="array">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/r_addr" type="array">
+      <obj_property name="ElementShortName">r_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/IR1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/IR1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/IR1/data" type="array">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/IR1/ad1" type="array">
+      <obj_property name="ElementShortName">ad1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ad1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/IR1/ad2" type="array">
+      <obj_property name="ElementShortName">ad2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ad2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/IR1/ins_p1" type="array">
+      <obj_property name="ElementShortName">ins_p1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_p1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/IR1/ins_p2" type="array">
+      <obj_property name="ElementShortName">ins_p2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_p2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ins" type="array">
+      <obj_property name="ElementShortName">ins[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/write_r" type="logic">
+      <obj_property name="ElementShortName">write_r</obj_property>
+      <obj_property name="ObjectShortName">write_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/read_r" type="logic">
+      <obj_property name="ElementShortName">read_r</obj_property>
+      <obj_property name="ObjectShortName">read_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/PC_en" type="logic">
+      <obj_property name="ElementShortName">PC_en</obj_property>
+      <obj_property name="ObjectShortName">PC_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ac_ena" type="logic">
+      <obj_property name="ElementShortName">ac_ena</obj_property>
+      <obj_property name="ObjectShortName">ac_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ram_ena" type="logic">
+      <obj_property name="ElementShortName">ram_ena</obj_property>
+      <obj_property name="ObjectShortName">ram_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/rom_ena" type="logic">
+      <obj_property name="ElementShortName">rom_ena</obj_property>
+      <obj_property name="ObjectShortName">rom_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ram_write" type="logic">
+      <obj_property name="ElementShortName">ram_write</obj_property>
+      <obj_property name="ObjectShortName">ram_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ram_read" type="logic">
+      <obj_property name="ElementShortName">ram_read</obj_property>
+      <obj_property name="ObjectShortName">ram_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/rom_read" type="logic">
+      <obj_property name="ElementShortName">rom_read</obj_property>
+      <obj_property name="ObjectShortName">rom_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ad_sel" type="logic">
+      <obj_property name="ElementShortName">ad_sel</obj_property>
+      <obj_property name="ObjectShortName">ad_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/fetch" type="array">
+      <obj_property name="ElementShortName">fetch[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/state" type="array">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/addr" type="array">
+      <obj_property name="ElementShortName">addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/data" type="array">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/RAM1/ram" type="array">
+      <obj_property name="ElementShortName">ram[4095:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[4095:0][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/in" type="array">
+      <obj_property name="ElementShortName">in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">in[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/addr" type="array">
+      <obj_property name="ElementShortName">addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/data" type="array">
+      <obj_property name="ElementShortName">data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/R" type="array">
+      <obj_property name="ElementShortName">R[255:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">R[255:0][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/REG1/r_addr" type="array">
+      <obj_property name="ElementShortName">r_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ins" type="array">
+      <obj_property name="ElementShortName">ins[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/write_r" type="logic">
+      <obj_property name="ElementShortName">write_r</obj_property>
+      <obj_property name="ObjectShortName">write_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/read_r" type="logic">
+      <obj_property name="ElementShortName">read_r</obj_property>
+      <obj_property name="ObjectShortName">read_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/PC_en" type="logic">
+      <obj_property name="ElementShortName">PC_en</obj_property>
+      <obj_property name="ObjectShortName">PC_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ac_ena" type="logic">
+      <obj_property name="ElementShortName">ac_ena</obj_property>
+      <obj_property name="ObjectShortName">ac_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ram_ena" type="logic">
+      <obj_property name="ElementShortName">ram_ena</obj_property>
+      <obj_property name="ObjectShortName">ram_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/rom_ena" type="logic">
+      <obj_property name="ElementShortName">rom_ena</obj_property>
+      <obj_property name="ObjectShortName">rom_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ram_write" type="logic">
+      <obj_property name="ElementShortName">ram_write</obj_property>
+      <obj_property name="ObjectShortName">ram_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ram_read" type="logic">
+      <obj_property name="ElementShortName">ram_read</obj_property>
+      <obj_property name="ObjectShortName">ram_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/rom_read" type="logic">
+      <obj_property name="ElementShortName">rom_read</obj_property>
+      <obj_property name="ObjectShortName">rom_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ad_sel" type="logic">
+      <obj_property name="ElementShortName">ad_sel</obj_property>
+      <obj_property name="ObjectShortName">ad_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/gto" type="logic">
+      <obj_property name="ElementShortName">gto</obj_property>
+      <obj_property name="ObjectShortName">gto</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/sel_ac" type="logic">
+      <obj_property name="ElementShortName">sel_ac</obj_property>
+      <obj_property name="ObjectShortName">sel_ac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/gto" type="logic">
+      <obj_property name="ElementShortName">gto</obj_property>
+      <obj_property name="ObjectShortName">gto</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/accum" type="array">
+      <obj_property name="ElementShortName">accum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">accum[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/PC1/pc_addr" type="array">
+      <obj_property name="ElementShortName">pc_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/fetch" type="array">
+      <obj_property name="ElementShortName">fetch[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/state" type="array">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/NOP" type="array">
+      <obj_property name="ElementShortName">NOP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NOP[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/LDO" type="array">
+      <obj_property name="ElementShortName">LDO[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LDO[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/LDA" type="array">
+      <obj_property name="ElementShortName">LDA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LDA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/STO" type="array">
+      <obj_property name="ElementShortName">STO[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STO[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/PRE" type="array">
+      <obj_property name="ElementShortName">PRE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PRE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/ADD" type="array">
+      <obj_property name="ElementShortName">ADD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/LDM" type="array">
+      <obj_property name="ElementShortName">LDM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LDM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/HLT" type="array">
+      <obj_property name="ElementShortName">HLT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HLT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/CNT" type="array">
+      <obj_property name="ElementShortName">CNT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/GBY" type="array">
+      <obj_property name="ElementShortName">GBY[3:0]</obj_property>
+      <obj_property name="ObjectShortName">GBY[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/GBI" type="array">
+      <obj_property name="ElementShortName">GBI[3:0]</obj_property>
+      <obj_property name="ObjectShortName">GBI[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/Sidle" type="array">
+      <obj_property name="ElementShortName">Sidle[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Sidle[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S0" type="array">
+      <obj_property name="ElementShortName">S0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S0[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S1" type="array">
+      <obj_property name="ElementShortName">S1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S2" type="array">
+      <obj_property name="ElementShortName">S2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S3" type="array">
+      <obj_property name="ElementShortName">S3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S4" type="array">
+      <obj_property name="ElementShortName">S4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S4[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S5" type="array">
+      <obj_property name="ElementShortName">S5[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S5[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S6" type="array">
+      <obj_property name="ElementShortName">S6[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S6[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S7" type="array">
+      <obj_property name="ElementShortName">S7[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S7[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S8" type="array">
+      <obj_property name="ElementShortName">S8[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S8[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S9" type="array">
+      <obj_property name="ElementShortName">S9[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S9[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S10" type="array">
+      <obj_property name="ElementShortName">S10[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S10[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S11" type="array">
+      <obj_property name="ElementShortName">S11[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S11[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_tb/DUT/CONTROLLER1/S12" type="array">
+      <obj_property name="ElementShortName">S12[4:0]</obj_property>
+      <obj_property name="ObjectShortName">S12[4:0]</obj_property>
+   </wvobject>
+</wave_config>

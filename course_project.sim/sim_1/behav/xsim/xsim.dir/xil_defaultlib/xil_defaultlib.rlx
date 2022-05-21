@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/akolo/Vivado gang/course_project/course_project.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/IR.sv,1652806480,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/PC.sv,,ins_reg,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/PC.sv,1653074861,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/RAM.sv,,prog_counter,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/RAM.sv,1652807145,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/ROM.sv,,ram,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/ROM.sv,1653076321,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/accumulator.sv,,rom,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/accumulator.sv,1653074870,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/addr_multiplexer.sv,,accum,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/addr_multiplexer.sv,1653048580,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/alu.sv,,addr_mux,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/alu.sv,1653072650,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/controller.sv,,alu,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/controller.sv,1653073951,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/core.sv,,controller,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/core.sv,1653067833,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/reg_32.sv,,core,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/proc_tb.sv,1653070796,systemVerilog,,,,proc_tb,,uvm,,,,,,
+C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/reg_32.sv,1652807015,systemVerilog,,C:/Users/akolo/Vivado gang/course_project/course_project.srcs/sources_1/new/proc_tb.sv,,reg_256,,uvm,,,,,,
